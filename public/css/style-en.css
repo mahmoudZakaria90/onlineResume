@@ -12,6 +12,11 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 :root {
   font-size: 10px;
@@ -290,6 +295,12 @@ input[type="button"]:hover {
 }
 .clf:after {
   clear: both;
+}
+
+.container {
+  max-width: 960px;
+  padding: 0 1.5rem;
+  margin: 0 auto;
 }
 
 .gv-main-face {
