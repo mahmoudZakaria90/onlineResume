@@ -1,0 +1,274 @@
+//Regular give.css
+.gv
+	//fonts
+	&-main-face
+		font-family: $main-face
+	&-second-face
+		font-family: $second-face
+	
+	&-bold
+		font-weight: bold
+		&er
+			font-weight: bolder
+	&-italic
+		font-style: italic
+
+	&-underline
+		text-decoration: underline
+		&-no
+			text-decoration: none
+
+	&-uppercase
+		text-transform: uppercase
+
+	&-lowercase
+		text-transform: lowercase
+
+	&-capitalize
+		text-transform: capitalize
+
+	// alignments
+	&-align-left
+		text-align: $dir
+
+	&-align-right
+		text-align: $dir-opp
+
+	&-align-center
+		text-align: center
+
+	// padding & margin
+	&-margin
+		margin: $reg
+		+gvMargin()
+
+		&-auto
+			margin: 0 auto
+
+		&-tb
+			margin: $reg 0
+			+gvMarginTB()
+
+		&-rl
+			margin: 0 $reg
+			+gvMarginRL()
+		&-top
+			margin-top:  $reg
+			+gvMarginTP()
+
+		&-right
+			margin-#{$dir-opp}:  $reg
+			+gvMarginRT()
+
+		&-bottom
+			margin-bottom: $reg
+			+gvMarginBT()
+
+		&-left
+			margin-#{$dir}:  $reg
+			+gvMarginLF()
+
+	&-padding
+		padding: $reg
+		+gvPadding()
+		&-tb
+			padding: $reg 0
+			+gvPaddingTB()
+
+		&-rl
+			padding: 0 $reg
+			+gvPaddingRL()
+		&-top
+			padding-top:  $reg
+			+gvPaddingTP()
+
+		&-right
+			padding-#{$dir-opp}: $reg
+			+gvPaddingRT()
+
+		&-bottom
+			padding-bottom: $reg
+			+gvPaddingBT()
+
+		&-left
+			padding-#{$dir}: $reg
+			+gvPaddingLF()
+
+	//borders
+	&-border
+		border: $border-width-reg solid $border-color-default
+		+gvBorder()
+
+		&-top
+			border-top: $border-width-reg solid $border-color-default
+			+gvBorderTP()
+
+		&-right
+			border-right: $border-width-reg solid $border-color-default
+			+gvBorderRT()
+
+		&-bottom
+			border-bottom: $border-width-reg solid $border-color-default
+			+gvBorderBT()
+
+		&-left
+			border-bottom: $border-width-reg solid $border-color-default
+			+gvBorderLF()
+	&-radius
+		border-radius: $border-radius-reg
+		&-lg
+			border-radius: $border-radius-lg
+		&-md
+			border-radius: $border-radius-md
+		&-sm
+			border-radius: $border-radius-sm
+	//float
+	&-float
+		&-left
+			float: left
+		&-right
+			float: right
+
+	//color & background-color
+	&-color-main
+		color: $main-color
+
+	&-color-second
+		color: $second-color
+
+	&-color-third
+		color: $third-color
+
+	&-bg-main
+		background-color: $main-color
+
+	&-bg-second
+		background-color: $second-color
+
+	&-bg-third
+		background-color: $third-color
+
+	//background-other stuff
+	&-bg
+		&-center
+			background-position: center center
+			&-top
+				background-position: center top
+			&-bottom
+				background-position: center bottom
+		&-left
+			background-position: left center
+			&-top
+				background-position: left top
+			&-bottom
+				background-position: left bottom
+
+		&-right
+			background-position: right center
+			&-top
+				background-position: right top
+			&-bottom
+				background-position: right bottom
+
+		&-thumb
+			background-size: cover
+			background-position: center center
+
+		&-no-repeat
+			background-repeat: no-repeat
+
+		&-contain
+			background-size: contain
+
+	//displays
+	&-block
+		display: block
+
+	&-inline
+		display: inline
+		&-block
+			display: inline-block
+
+	&-list
+		&-item
+			display: list-item
+
+	//lists
+	&-decimal
+		list-style: decimal
+
+	//no
+	&-no
+		&-padding
+			padding: 0
+		&-bullet
+			list-style: none
+
+	//positions
+	&-relative
+		position: relative
+	&-absolute
+		position: absolute
+	&-fixed
+		position: fixed
+
+	&-position-default
+		top: 0
+		#{$dir}: 0
+
+	//overflow
+	&-ovflow
+		&-visible
+			overflow: visible
+		&-hidden
+			overflow: hidden
+		&-auto
+			overflow: auto
+		&-scroll
+			overflow: scroll
+
+	//Shadow
+
+	&-shadow
+		&-box
+			box-shadow: 2px 2px 2px $border-color-default
+		&-text
+			text-shadow: 2px 2px 2px $border-color-default
+
+	//FLEX
+	&-flex
+		+gvFlexBox()
+		&>*
+			flex: 1 0 auto
+		&-column
+			+gvFlexColumn()
+
+		&-wrap
+			+gvFlexWrap()
+
+		&-center
+			+gvFlexCenter-v()
+			+gvFlexCenter-h()
+			&-h
+				+gvFlexCenter-h()
+			&-v
+				+gvFlexCenter-v()
+		&-start
+			+gvFlexStart-h()
+			+gvFlexStart-v()
+			&-h
+				+gvFlexStart-h()
+			&-v
+				+gvFlexStart-v()
+		&-end
+			+gvFlexEnd-h()
+			+gvFlexEnd-v()
+			&-h
+				+gvFlexEnd-h()
+			&-v
+				+gvFlexEnd-v()
+
+		//Continue after me...
+
+
+		
