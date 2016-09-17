@@ -1,27 +1,27 @@
 {
   "name": "Online resume",
   "version": "1.0.0",
-  "description": "Multiple classes = shape your styles",
+  "description": "Digital resume about me, experiences, skills, goals instead of .DOCX",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mahmoudZakaria90/besty-flow.git"
+    "url": "git+https://github.com/mahmoudZakaria90/onlineResume.git"
   },
   "keywords": [
     "HTML",
     "CSS",
-    "Work flow",
-    "Fast web pages"
+    "Me",
+    "Digital resume"
   ],
   "author": "Mahmoud Zakaria",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mahmoudZakaria90/besty-flow/issues"
+    "url": "https://github.com/mahmoudZakaria90/onlineResume/issues"
   },
-  "homepage": "https://github.com/mahmoudZakaria90/besty-flow#readme",
+  "homepage": "https://github.com/mahmoudZakaria90/onlineResume#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",

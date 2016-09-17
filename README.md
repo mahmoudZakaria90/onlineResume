@@ -1,2 +1,2 @@
-# BestyFLow
-###### Multiple classes = Shape your styles + Make your web pages faster
+# Online resume
+###### Digital resume about me, experiences, skills, goals instead of .DOCX
