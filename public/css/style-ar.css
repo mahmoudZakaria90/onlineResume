@@ -670,6 +670,9 @@ input[type="button"]:hover {
 .gv-no-display {
   display: none;
 }
+.gv-no-margin {
+  margin: 0;
+}
 .gv-relative {
   position: relative;
 }
