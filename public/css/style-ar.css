@@ -586,10 +586,10 @@ input[type="button"]:hover {
   border-radius: 0.2rem;
 }
 .gv-float-left {
-  float: left;
+  float: right;
 }
 .gv-float-right {
-  float: right;
+  float: left;
 }
 .gv-color-main {
   color: #1a1a1a;
