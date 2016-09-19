@@ -11,7 +11,7 @@
 	cursor: pointer
 	&-wrap
 		position: fixed
-		z-index: 15
+		z-index: 5
 	&:hover
 		&:before
 			transform: scale(1)
@@ -84,5 +84,6 @@
 			+gvSize_val(250px,250px)
 			border-radius: 1rem
 			&:before
-				content: none
+				+gvSize_val(250px,250px)
+				border-radius: 1rem
 

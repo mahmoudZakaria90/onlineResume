@@ -388,7 +388,7 @@ body {
 }
 .indicator-wrap {
   position: fixed;
-  z-index: 15;
+  z-index: 5;
 }
 .indicator:hover:before {
   transform: scale(1);
@@ -478,7 +478,9 @@ body {
   border-radius: 1rem;
 }
 .intro-me.zoomed:before {
-  content: none;
+  width: 250px;
+  height: 250px;
+  border-radius: 1rem;
 }
 
 /* @keyframes & transitions */
