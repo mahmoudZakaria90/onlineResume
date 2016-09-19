@@ -478,9 +478,7 @@ body {
   border-radius: 1rem;
 }
 .intro-me.zoomed:before {
-  width: 250px;
-  height: 250px;
-  border-radius: 1rem;
+  content: none;
 }
 
 /* @keyframes & transitions */
