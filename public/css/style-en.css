@@ -501,9 +501,6 @@ body {
 .gv-underline {
   text-decoration: underline;
 }
-.gv-underline-no {
-  text-decoration: none;
-}
 .gv-uppercase {
   text-transform: uppercase;
 }
@@ -870,6 +867,12 @@ body {
 }
 .gv-no-margin {
   margin: 0;
+}
+.gv-no-float {
+  float: none;
+}
+.gv-no-underline {
+  text-decoration: none;
 }
 .gv-relative {
   position: relative;
