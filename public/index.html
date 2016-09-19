@@ -18,15 +18,41 @@
 
   </head>
   <body>
+
+    <input type="radio" name="slider" class="indicator-btn" id="intro" hidden checked><!--start of indicators-btns-->
+    <input type="radio" name="slider" class="indicator-btn" id="about" hidden>
+    <input type="radio" name="slider" class="indicator-btn" id="responsibilities" hidden>
+    <input type="radio" name="slider" class="indicator-btn" id="skills" hidden>
+    <input type="radio" name="slider" class="indicator-btn" id="achievements" hidden>
+    <input type="radio" name="slider" class="indicator-btn" id="hire" hidden><!--end of indicators-btns-->
+
+    <div class="indicator-wrap"><!--start of indicators-placeholder-->
+      <label for="intro" class="indicator"></label>
+      <label for="about" class="indicator"></label>
+      <label for="responsibilities" class="indicator"></label>
+      <label for="skills" class="indicator"></label>
+      <label for="achievements" class="indicator"></label>
+      <label for="hire" class="indicator"></label>
+    </div><!--end of indicators-placeholder-->
+
+
     
-    <div class="layer-wrap">
-      <div class="layer layer1">
-        <div class="container">
-          <p class="gv-align-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum corrupti, praesentium. Fugit, est, praesentium. Harum, accusantium. Eligendi sint dolor vero fuga quod animi commodi, eum itaque hic dolorum rerum! Qui!</p>
-          <p class="gv-align-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum corrupti, praesentium. Fugit, est, praesentium. Harum, accusantium. Eligendi sint dolor vero fuga quod animi commodi, eum itaque hic dolorum rerum! Qui!</p>
-          <p class="gv-align-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum corrupti, praesentium. Fugit, est, praesentium. Harum, accusantium. Eligendi sint dolor vero fuga quod animi commodi, eum itaque hic dolorum rerum! Qui!</p>
-        </div>
-      </div>
+    <div class="layer-wrap"><!--start of layers wrap-->
+
+      <article class="layer layer1 intro"><!--start of intro-->
+        <div class="container"><!--start of contianer-->
+          <div class="intro-content gv-align-center">
+            <h1>Mahmoud Zakaria</h1>
+            <h2>Front end developer</h2>
+            <label class="intro-me">
+              <img src="images/me2.jpg" alt="">
+            </label>
+            <p>My name is Mahmoud Mohamed Zakaria and i’m 26 years old, i was born in cairo, Egypt and live in downtown, i graduated from thebes academy higher institute of computer science and management (bachelor of management information systems “Aug - 2011” ) 2011 with grade “very good” and GPA : 3.36
+my hobbies are : music, running, football</p>
+          </div>
+        </div><!--end of container-->
+      </article><!--end of intro-->
+
       <div class="layer layer2">
         <div class="container">
           <p class="gv-align-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum corrupti, praesentium. Fugit, est, praesentium. Harum, accusantium. Eligendi sint dolor vero fuga quod animi commodi, eum itaque hic dolorum rerum! Qui!</p>
@@ -38,7 +64,7 @@
       <div class="layer layer4"></div>
       <div class="layer layer5"></div>
       <div class="layer layer6"></div>
-    </div>
+    </div><!--start of layers wrap-->
     
     <!--JQuery-->
     <script src="js/jquery.min.js"></script>

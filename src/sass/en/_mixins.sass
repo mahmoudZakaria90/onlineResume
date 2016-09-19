@@ -1,3 +1,33 @@
 @import mixins/valueMixins
 @import mixins/selectorMixins
 @import mixins/regMixins
+
+=slider-full-v()
+	body
+		overflow: hidden
+	$base: 6
+	.indicator-btn:first-child:checked ~ .indicator-wrap .indicator:first-child
+		cursor: default
+		background-color: #333
+	
+	.indicator
+		display: block
+		margin-bottom: 1.5rem
+		&-wrap
+			right: 1.5rem
+			top: 50%
+			transform: translateY(-50%)
+	@for $i from 2 to $base
+		.indicator-btn:nth-of-type(#{$i}):checked
+			& ~ .layer-wrap
+				transform: translateY(-($i - 1) * 100vh)
+
+			& ~ .indicator-wrap .indicator:nth-of-type(#{$i})
+				cursor: default
+				background-color: #333
+		.indicator-btn:nth-child(#{$base}):checked 
+			& ~ .layer-wrap
+				transform: translateY(-($base - 1) * 100vh)
+			& ~ .indicator-wrap .indicator:nth-child(#{$base})
+				cursor: default
+				background-color: #333

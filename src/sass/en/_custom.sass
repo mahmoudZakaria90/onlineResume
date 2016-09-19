@@ -1,0 +1,60 @@
+/*Custom styles*/
+
+/*Slider*/
++slider-full-v()
+
+.indicator
+	+gvSize_val(10px,10px)
+	background-color: white
+	border-radius: 50%
+	position: relative
+	cursor: pointer
+	&-wrap
+		position: fixed
+		z-index: 15
+	&:hover
+		&:before
+			transform: scale(1)
+	&:before
+		content: attr(for)
+		position: absolute
+		top: -1.5rem
+		left: -(13.2rem + 1.5rem)
+		padding: .5rem
+		width: 13.2rem
+		text-align: center
+		border-radius: .5rem
+		background-color: #333
+		transform: scale(0)
+		+gvTransition_val(transform 450ms)
+		text-transform: capitalize
+
+.layer
+	height: 100vh
+	display: flex
+	position: relative
+	&1
+		background-color: $intro-color
+	&2
+		background-color: $about-color
+	&3
+		background-color: $respo-color
+	&4
+		background-color: $skill-color
+	&5
+		background-color: $intro-color
+	&6
+		background-color: $hire-color
+	&-wrap
+		+gvTransition_val(all 450ms)
+
+//intro
+.intro
+	&-me
+		display: block
+		margin: 0 auto $reg
+		overflow: hidden
+		+gvSize_val(150px,150px)
+		border-radius: 50%
+		// background: url('../images/me2.jpg') no-repeat center center
+		// background-size: cover

@@ -1,4 +1,4 @@
-/*Custom CSS*/
+/*General CSS*/
 /*============*/
 
 //Simple reset
@@ -27,7 +27,7 @@ body
 	font-family: $main-face
 	font-size: $main-font
 	line-height: 1.5
-	color: $third-color
+	color: $main-color
 	font-weight: 400
 
 /*Give All anchors/button a transition*/
@@ -56,8 +56,13 @@ h3
 h4
 	font-size: $h4
 
-p
+h1,h2,h3,h4,h5,h6,p
 	margin:  0 0 $reg 0
+
+h1,h2,h3,h4,h5,h6
+	font-family: $heading-face
+	font-weight: inherit
+	line-height: inherit
 
 button,
 input[type="submit"],
@@ -85,9 +90,6 @@ table
 
 @for $i from 1 through 6
 	h#{$i}
-		margin:  0 0 $reg 0
-		font-weight: inherit
-		line-height: inherit
 		a
 			color: inherit
 			font-size: inherit
