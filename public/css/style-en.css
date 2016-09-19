@@ -440,7 +440,6 @@ body {
 .intro-me {
   position: relative;
   -webkit-user-select: none;
-  -moz-user-select: none;
   cursor: pointer;
   display: block;
   margin: 0 auto 1.5rem;
