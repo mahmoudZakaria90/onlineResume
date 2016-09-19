@@ -11,7 +11,7 @@
 	cursor: pointer
 	&-wrap
 		position: fixed
-		z-index: 15
+		z-index: 5
 	&:hover
 		&:before
 			transform: scale(1)
@@ -55,7 +55,11 @@
 		-webkit-user-select: none
 		cursor: pointer
 		display: block
+<<<<<<< HEAD
 		margin: 0 auto $md
+=======
+		margin: 0 auto  3rem
+>>>>>>> gh-pages
 		overflow: hidden
 		+gvSize_val(150px,150px)
 		border-radius: 50%
@@ -84,6 +88,11 @@
 			border-radius: 1rem
 			&:before
 				content: none
+	&-list
+		& > li
+			flex-basis: 33.333333%
+		.fa
+			margin-left: 0
 
 	&-list
 		& > li
