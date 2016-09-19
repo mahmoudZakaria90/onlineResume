@@ -1,5 +1,5 @@
 {
-  "name": "Online resume",
+  "name": "online-resume",
   "version": "1.0.0",
   "description": "Digital resume about me, experiences, skills, goals instead of .DOCX",
   "main": "gulpfile.js",
@@ -13,8 +13,7 @@
   "keywords": [
     "HTML",
     "CSS",
-    "Me",
-    "Digital resume"
+    "JS"
   ],
   "author": "Mahmoud Zakaria",
   "license": "ISC",
