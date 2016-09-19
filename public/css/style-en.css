@@ -1,24 +1,24 @@
 /*
 Error: The line was indented 2 levels deeper than the previous line.
-        on line 59 of src/sass/en/_custom.sass
-        from line 9 of E:/myownstuff/onlineResume/src/sass/en/_common.sass
+        on line 228 of src/sass/en/_give.sass
+        from line 11 of E:/myownstuff/onlineResume/src/sass/en/_common.sass
         from line 4 of ./src/sass/en/style-en.sass
 
-54: 		position: relative
-55: 		-webkit-user-select: none
-56: 		cursor: pointer
-57: 		display: block
-58: <<<<<<< HEAD
-59: 		margin: 0 auto $md
-60: =======
-61: 		margin: 0 auto  3rem
-62: >>>>>>> gh-pages
-63: 		overflow: hidden
-64: 		+gvSize_val(150px,150px)
+223: 			display: none
+224: 		&-margin
+225: 			margin: 0
+226: <<<<<<< HEAD
+227: =======
+228: 		&-float
+229: 			float: none
+230: >>>>>>> gh-pages
+231: 		&-underline
+232: 			text-decoration: none
+233: 
 
 Backtrace:
-src/sass/en/_custom.sass:59
-E:/myownstuff/onlineResume/src/sass/en/_common.sass:9
+src/sass/en/_give.sass:228
+E:/myownstuff/onlineResume/src/sass/en/_common.sass:11
 ./src/sass/en/style-en.sass:4
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:520:in `tree'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:409:in `_to_tree'
@@ -77,4 +77,4 @@ C:/Ruby22-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: The line was indented 2 levels deeper than the previous line.\A         on line 59 of src/sass/en/_custom.sass\A         from line 9 of E:/myownstuff/onlineResume/src/sass/en/_common.sass\A         from line 4 of ./src/sass/en/style-en.sass\A \A 54: 		position: relative\A 55: 		-webkit-user-select: none\A 56: 		cursor: pointer\A 57: 		display: block\A 58: <<<<<<< HEAD\A 59: 		margin: 0 auto $md\A 60: =======\A 61: 		margin: 0 auto  3rem\A 62: >>>>>>> gh-pages\A 63: 		overflow: hidden\A 64: 		+gvSize_val(150px,150px)"; }
+  content: "Error: The line was indented 2 levels deeper than the previous line.\A         on line 228 of src/sass/en/_give.sass\A         from line 11 of E:/myownstuff/onlineResume/src/sass/en/_common.sass\A         from line 4 of ./src/sass/en/style-en.sass\A \A 223: 			display: none\A 224: 		&-margin\A 225: 			margin: 0\A 226: <<<<<<< HEAD\A 227: =======\A 228: 		&-float\A 229: 			float: none\A 230: >>>>>>> gh-pages\A 231: 		&-underline\A 232: 			text-decoration: none\A 233: "; }
