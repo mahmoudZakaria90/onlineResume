@@ -480,6 +480,9 @@ body {
 .intro-me.zoomed:before {
   content: none;
 }
+.intro-list > * {
+  flex-basis: 33.33333%;
+}
 
 /* @keyframes & transitions */
 /*Regular give.css */
