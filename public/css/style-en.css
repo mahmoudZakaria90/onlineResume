@@ -480,7 +480,7 @@ body {
 .intro-me.zoomed:before {
   content: none;
 }
-.intro-list > * {
+.intro-list > li {
   flex-basis: 33.33333%;
 }
 .intro-list .fa {
