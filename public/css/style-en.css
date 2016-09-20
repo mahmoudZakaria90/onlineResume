@@ -495,8 +495,8 @@ body {
   background-color: #6db2c8;
 }
 .layer-wrap {
-  -webkit-transition: all 450ms;
-  transition: all 450ms;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 /*intro */
