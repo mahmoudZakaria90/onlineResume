@@ -628,6 +628,8 @@ body {
 }
 .hire .container.rotate {
   height: 364px;
+  -webkit-transition: all 800ms;
+  transition: all 800ms;
 }
 .hire .container.rotate .hire-card {
   height: 144px;
