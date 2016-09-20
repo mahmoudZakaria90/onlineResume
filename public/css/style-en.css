@@ -625,6 +625,7 @@ body {
   padding: 1.5rem 10rem;
   color: #fff;
   background-color: #4da6db;
+  border: none;
   border-radius: 0.4rem;
   box-shadow: 0 2px 0px rgba(0, 0, 0, 0.37);
 }
