@@ -628,6 +628,9 @@ body {
   border: none;
   border-radius: 0.4rem;
   box-shadow: 0 2px 0px rgba(0, 0, 0, 0.37);
+  font-size: 2.4rem;
+  -webkit-transition: none;
+  transition: none;
 }
 
 /* @keyframes & transitions */
