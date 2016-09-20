@@ -661,8 +661,8 @@ body {
   right: 0;
   bottom: 0;
   z-index: 200;
-  -webkit-transition: all 450ms;
-  transition: all 450ms;
+  -webkit-transition: all 450ms 2s;
+  transition: all 450ms 2s;
 }
 
 .loaded .splash {
@@ -672,6 +672,8 @@ body {
 
 .rain-wrap {
   position: relative;
+  display: inline-block;
+  right: 0.8rem;
 }
 
 .clouds {
