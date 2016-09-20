@@ -650,7 +650,6 @@ body {
   backface-visibility: hidden;
   -webkit-transform: rotateY(0) translateZ(0);
   transform: rotateY(0) translateZ(0);
-  box-shadow: 0 0 1px transparent;
 }
 .hire-card {
   position: relative;
@@ -659,6 +658,7 @@ body {
   backface-visibility: hidden;
   height: 0;
   bottom: 0;
+  box-shadow: 0 0 1px transparent;
   -webkit-transition: height 450ms, transform 450ms 455ms, bottom 450ms 900ms;
   transition: height 450ms, transform 450ms 455ms, bottom 450ms 900ms;
 }
