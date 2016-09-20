@@ -47,6 +47,8 @@
 		.indicator
 			display: inline-block
 			margin-left: 1.5rem
+			&:before
+				content: none
 	@for $i from 2 to $base
 		.indicator-btn2:nth-of-type(#{$i}):checked
 			& ~ .achv-inner

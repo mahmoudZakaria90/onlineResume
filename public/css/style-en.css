@@ -398,6 +398,9 @@ body {
   display: inline-block;
   margin-left: 1.5rem;
 }
+.indicator-wrap2 .indicator:before {
+  content: none;
+}
 
 .indicator-btn2:nth-of-type(2):checked ~ .achv-inner {
   transform: translateY(-100vh);
