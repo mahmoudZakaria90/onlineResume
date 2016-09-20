@@ -509,6 +509,9 @@ body {
 }
 
 /*skills */
+.skills-item {
+  margin-bottom: 2rem;
+}
 .skills-inner {
   width: 130px;
   height: 130px;
@@ -516,6 +519,9 @@ body {
   border: 2px solid white;
   border-radius: 50%;
   line-height: 130px;
+}
+.skills .container {
+  width: 960px;
 }
 
 /* @keyframes & transitions */
