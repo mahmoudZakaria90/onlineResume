@@ -645,8 +645,8 @@ body {
   border-radius: 0.4rem;
   box-shadow: 0 2px 0px rgba(0, 0, 0, 0.37);
   font-size: 2.4rem;
-  -webkit-transition: all 450ms;
-  transition: all 450ms;
+  -webkit-transition: all 800ms;
+  transition: all 800ms;
   backface-visibility: hidden;
 }
 .hire-card {
