@@ -670,7 +670,39 @@ body {
   transform: translateY(-100%);
 }
 
+.rain-wrap {
+  position: relative;
+}
+
+.clouds {
+  position: relative;
+  margin: 0 auto;
+  width: 25px;
+  height: 12px;
+  border-radius: 50%;
+  background: lightblue;
+  box-shadow: 15px -6px 0 4px lightblue, -9px -9px 0 2px lightblue;
+  z-index: 5;
+}
+
+.bolt {
+  text-align: center;
+  display: block;
+  margin-top: 0.2em;
+  font-size: 2em;
+  opacity: 0;
+  animation: bolt 2s infinite;
+}
+
 /* @keyframes & transitions */
+@keyframes bolt {
+  10%,30% {
+    opacity: 1;
+  }
+  20%,100% {
+    opacity: 0;
+  }
+}
 /*Regular give.css */
 .gv-main-face {
   font-family: "OpenSans", sans-serif;
