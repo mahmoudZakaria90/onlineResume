@@ -1,8 +1,8 @@
 //onLoad
 
-window.addEventListener('load',function(){
-	document.body.className = "loaded"
-})
+// window.addEventListener('load',function(){
+// 	document.body.className = "loaded"
+// })
 
 
 //intro-me
