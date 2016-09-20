@@ -534,6 +534,9 @@ body {
 .achv-slide {
   flex-basis: 100%;
 }
+.achv-item {
+  margin-bottom: 3rem;
+}
 .achv-item-inner {
   height: 222px;
   border-radius: 4px;
