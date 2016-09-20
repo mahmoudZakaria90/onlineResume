@@ -534,6 +534,11 @@ body {
 .achv-slide {
   flex-basis: 100%;
 }
+.achv-item {
+  height: 222px;
+  border-radius: 4px;
+  border: 2px solid white;
+}
 
 /* @keyframes & transitions */
 /*Regular give.css */
