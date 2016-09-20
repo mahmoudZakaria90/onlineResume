@@ -163,6 +163,8 @@
 
 /*hire*/
 .hire
+	.container
+		perspective: 1000px
 	&-btn
 		padding: 1.5rem 10rem
 		color: $main-color
@@ -172,3 +174,10 @@
 		box-shadow: 0 2px 0px rgba(black,.37)
 		font-size: $h2
 		+gvTransition_val(background-color 450ms)
+
+	&-card
+		-webkit-transform: rotate(180deg)
+		transform: rotate(180deg)
+		backface-visibility: hidden
+		h1
+			margin-bottom: 0

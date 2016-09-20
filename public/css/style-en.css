@@ -622,6 +622,9 @@ body {
 }
 
 /*hire */
+.hire .container {
+  perspective: 1000px;
+}
 .hire-btn {
   padding: 1.5rem 10rem;
   color: #fff;
@@ -632,6 +635,14 @@ body {
   font-size: 2.4rem;
   -webkit-transition: background-color 450ms;
   transition: background-color 450ms;
+}
+.hire-card {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  backface-visibility: hidden;
+}
+.hire-card h1 {
+  margin-bottom: 0;
 }
 
 /* @keyframes & transitions */
