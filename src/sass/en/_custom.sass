@@ -165,15 +165,17 @@
 .hire
 	.container
 		perspective: 1000px
-		&.rotate .hire-card
-			height: 144px
-			-webkit-transform: rotateY(0)
-			transform: rotateY(0)
-			bottom: 33px
-		&.rotate .hire-btn
-			-webkit-transform: rotateY(180deg) translateZ(0)
-			transform: rotateY(180deg) translateZ(0)
-			
+		&.rotate 
+			height: 364px
+			.hire
+				&-card
+					height: 144px
+					-webkit-transform: rotateY(0)
+					transform: rotateY(0)
+					bottom: 33px
+				&-btn
+					-webkit-transform: rotateY(180deg) translateZ(0)
+					transform: rotateY(180deg) translateZ(0)
 			
 	&-btn
 		padding: 1.5rem 10rem

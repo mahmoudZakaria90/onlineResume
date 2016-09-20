@@ -626,6 +626,9 @@ body {
 .hire .container {
   perspective: 1000px;
 }
+.hire .container.rotate {
+  height: 364px;
+}
 .hire .container.rotate .hire-card {
   height: 144px;
   -webkit-transform: rotateY(0);
