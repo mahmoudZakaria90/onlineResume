@@ -630,7 +630,7 @@ body {
   height: 144px;
   -webkit-transform: rotateY(0);
   transform: rotateY(0);
-  bottom: 66px;
+  bottom: 33px;
 }
 .hire .container.rotate .hire-btn {
   -webkit-transform: rotateY(180deg) translateZ(0);
