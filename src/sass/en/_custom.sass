@@ -165,6 +165,10 @@
 .hire
 	.container
 		perspective: 1000px
+		&.rotate
+			height: 144px
+			-webkit-transform: rotateY(0)
+			transform: rotateY(0)
 	&-btn
 		padding: 1.5rem 10rem
 		color: $main-color
@@ -176,8 +180,10 @@
 		+gvTransition_val(background-color 450ms)
 
 	&-card
-		-webkit-transform: rotate(180deg)
-		transform: rotate(180deg)
+		-webkit-transform: rotateY(180deg)
+		transform: rotateY(180deg)
 		backface-visibility: hidden
+		height: 0
+		+gvTransition_val(height 450ms, transform 450ms 455ms)
 		h1
 			margin-bottom: 0

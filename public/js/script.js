@@ -21,15 +21,19 @@
 
 
 
-//others
+//intro-me
 var el = document.getElementById('intro-me');
 function zoomMe(){
 	this.classList.toggle('zoomed')
 	window.removeEventListener('mousedown',zoomMe)
 }
 
-function zoomOut(){
-	el.classList.remove('zoomed')
-}
-
 el.addEventListener('mousedown',zoomMe)
+
+
+//hire-me
+var hireBtn = document.getElementById('hire-btn');
+function rotate(){
+	this.parentNode.className = " " + 'rotate'
+}
+hireBtn.addEventListener('mousedown',rotate)
