@@ -597,6 +597,8 @@ body {
   height: 222px;
   border-radius: 4px;
   border: 2px solid white;
+  -webkit-transition: all 450ms;
+  transition: all 450ms;
 }
 
 /* @keyframes & transitions */
