@@ -156,7 +156,7 @@ input, button {
 }
 
 strong {
-  font-size: larger;
+  font-size: large;
 }
 
 ::-webkit-input-placeholder {
