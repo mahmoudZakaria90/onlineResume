@@ -170,11 +170,9 @@
 			-webkit-transform: rotateY(0)
 			transform: rotateY(0)
 		&.rotate .hire-btn
-			-webkit-transform: rotateY(-180deg)
-			transform: rotateY(-180deg)
-			padding: 0
-			margin-bottom: 0!important
-			font-size: 0
+			-webkit-transform: rotateY(180deg)
+			transform: rotateY(180deg)
+			margin-bottom: 0
 			
 	&-btn
 		padding: 1.5rem 10rem
@@ -184,7 +182,7 @@
 		border-radius: .4rem
 		box-shadow: 0 2px 0px rgba(black,.37)
 		font-size: $h2
-		+gvTransition_val(all 800ms,background-color 450ms, box-shadow 0s,margin 800ms 450ms,padding 800ms 450ms,font-size 800ms 450ms)
+		+gvTransition_val(background-color 450ms)
 		backface-visibility: hidden
 
 	&-card

@@ -632,11 +632,9 @@ body {
   transform: rotateY(0);
 }
 .hire .container.rotate .hire-btn {
-  -webkit-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
-  padding: 0;
-  margin-bottom: 0 !important;
-  font-size: 0;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  margin-bottom: 0;
 }
 .hire-btn {
   padding: 1.5rem 10rem;
@@ -646,8 +644,8 @@ body {
   border-radius: 0.4rem;
   box-shadow: 0 2px 0px rgba(0, 0, 0, 0.37);
   font-size: 2.4rem;
-  -webkit-transition: all 800ms, background-color 450ms, box-shadow 0s, margin 800ms 450ms, padding 800ms 450ms, font-size 800ms 450ms;
-  transition: all 800ms, background-color 450ms, box-shadow 0s, margin 800ms 450ms, padding 800ms 450ms, font-size 800ms 450ms;
+  -webkit-transition: background-color 450ms;
+  transition: background-color 450ms;
   backface-visibility: hidden;
 }
 .hire-card {
