@@ -655,8 +655,8 @@ body {
   transform: rotateY(180deg);
   backface-visibility: hidden;
   height: 0;
-  -webkit-transition: height 450ms, transform 450ms 455ms, top 450ms 900ms;
-  transition: height 450ms, transform 450ms 455ms, top 450ms 900ms;
+  -webkit-transition: height 450ms, transform 450ms 455ms, bottom 450ms 900ms;
+  transition: height 450ms, transform 450ms 455ms, bottom 450ms 900ms;
 }
 .hire-card h1 {
   margin-bottom: 0;
