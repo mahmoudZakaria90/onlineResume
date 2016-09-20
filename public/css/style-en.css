@@ -963,7 +963,8 @@ body {
   display: flex;
 }
 .gv-flex > * {
-  flex: 1 0;
+  flex-grow: 1;
+  flex-shrink: 0;
 }
 .gv-flex-row {
   flex-direction: row;
