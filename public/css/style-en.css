@@ -525,6 +525,9 @@ body {
 }
 
 /*achives */
+.achv .container {
+  width: 960px;
+}
 .achv-slider {
   overflow: hidden;
 }
