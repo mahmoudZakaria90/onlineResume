@@ -524,6 +524,14 @@ body {
   width: 960px;
 }
 
+/*achives */
+.achv-slider {
+  overflow: hidden;
+}
+.achv-slide {
+  flex-basis: 100%;
+}
+
 /* @keyframes & transitions */
 /*Regular give.css */
 .gv-main-face {
