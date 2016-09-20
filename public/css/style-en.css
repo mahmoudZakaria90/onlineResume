@@ -394,6 +394,10 @@ body {
   position: fixed;
   z-index: 5;
 }
+.indicator-wrap2 {
+  position: absolute;
+  z-index: 5;
+}
 .indicator:hover:before {
   transform: scale(1);
 }
