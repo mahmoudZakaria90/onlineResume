@@ -616,6 +616,9 @@ body {
   color: white;
   text-decoration: none;
 }
+.achv-item h3 span {
+  font-size: 1.4rem;
+}
 
 /* @keyframes & transitions */
 /*Regular give.css */
