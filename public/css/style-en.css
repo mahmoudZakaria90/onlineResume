@@ -508,6 +508,15 @@ body {
   margin-bottom: 0;
 }
 
+/*skills */
+.skills-inner {
+  width: 130px;
+  height: 130px;
+  border: 1px solid white;
+  border-radius: 50%;
+  line-height: 130px;
+}
+
 /* @keyframes & transitions */
 /*Regular give.css */
 .gv-main-face {
