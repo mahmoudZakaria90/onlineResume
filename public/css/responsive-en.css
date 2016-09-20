@@ -4,11 +4,6 @@
 @media(min-width: 1440px);
 @media(min-width: 1600px);
 @media(min-width: 1920px);
-@media (min-width: 1200px) {
-  .container {
-    width: 970px;
-  }
-}
 @media(max-width: 1366px);
 /*Med Desktop ,tablets and all mobile Sizes including (phablets) */
 /*Tablet (portrait) and all mobile Sizes including (phablets) */
