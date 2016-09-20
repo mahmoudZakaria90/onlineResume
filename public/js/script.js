@@ -34,6 +34,6 @@ el.addEventListener('mousedown',zoomMe)
 //hire-me
 var hireBtn = document.getElementById('hire-btn');
 function rotate(){
-	this.parentNode.className = " " + 'rotate'
+	this.parentNode.className += " " + 'rotate'
 }
 hireBtn.addEventListener('mousedown',rotate)
