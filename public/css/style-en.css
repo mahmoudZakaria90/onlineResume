@@ -396,7 +396,7 @@ body {
 }
 .indicator-wrap2 .indicator {
   display: inline-block;
-  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 .indicator-wrap2 .indicator:before {
   content: none;
@@ -601,6 +601,15 @@ body {
   height: 222px;
   border-radius: 4px;
   border: 2px solid white;
+}
+.achv-item a {
+  display: block;
+  padding: 1.5rem;
+  background-color: rgba(31, 30, 30, 0.7);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 /* @keyframes & transitions */
