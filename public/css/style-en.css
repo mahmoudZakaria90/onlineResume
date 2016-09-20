@@ -441,6 +441,7 @@ body {
   transition: all 450ms;
 }
 
+/*intro */
 .intro-me {
   position: relative;
   -webkit-user-select: none;
@@ -491,6 +492,11 @@ body {
   margin-left: 0;
   font-size: 2.5rem;
   vertical-align: baseline;
+}
+
+/*about */
+.about-list > li > em {
+  margin-left: 4rem;
 }
 
 /* @keyframes & transitions */
