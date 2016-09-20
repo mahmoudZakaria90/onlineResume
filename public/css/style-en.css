@@ -382,6 +382,55 @@ body {
   background-color: #333;
 }
 
+.indicator-btn2:first-child:checked ~ .indicator-wrap2 .indicator:first-child {
+  cursor: default;
+  background-color: #333;
+}
+
+.indicator-wrap2 {
+  bottom: 1rem;
+  right: auto;
+  top: auto;
+  left: 50%;
+  transform: translate(-50%);
+}
+.indicator-wrap2 .indicator {
+  display: inline-block;
+  margin-left: 1.5rem;
+}
+
+.indicator-btn2:nth-of-type(2):checked ~ .achv-inner {
+  transform: translateY(-100vh);
+}
+.indicator-btn2:nth-of-type(2):checked ~ .indicator-wrap2 .indicator:nth-of-type(2) {
+  cursor: default;
+  background-color: #333;
+}
+
+.indicator-btn2:nth-child(4):checked ~ .achv-inner {
+  transform: translateY(-300vh);
+}
+.indicator-btn2:nth-child(4):checked ~ .indicator-wrap2 .indicator:nth-child(4) {
+  cursor: default;
+  background-color: #333;
+}
+
+.indicator-btn2:nth-of-type(3):checked ~ .achv-inner {
+  transform: translateY(-200vh);
+}
+.indicator-btn2:nth-of-type(3):checked ~ .indicator-wrap2 .indicator:nth-of-type(3) {
+  cursor: default;
+  background-color: #333;
+}
+
+.indicator-btn2:nth-child(4):checked ~ .achv-inner {
+  transform: translateY(-300vh);
+}
+.indicator-btn2:nth-child(4):checked ~ .indicator-wrap2 .indicator:nth-child(4) {
+  cursor: default;
+  background-color: #333;
+}
+
 .indicator {
   width: 10px;
   height: 10px;
