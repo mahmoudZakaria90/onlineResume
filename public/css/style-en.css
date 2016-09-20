@@ -655,6 +655,7 @@ body {
   transform: rotateY(180deg);
   backface-visibility: hidden;
   height: 0;
+  bottom: 0;
   -webkit-transition: height 450ms, transform 450ms 455ms, bottom 450ms 900ms;
   transition: height 450ms, transform 450ms 455ms, bottom 450ms 900ms;
 }
