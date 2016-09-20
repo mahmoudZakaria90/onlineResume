@@ -653,6 +653,22 @@ body {
   margin-bottom: 0;
 }
 
+.splash {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: all 450ms;
+  transition: all 450ms;
+}
+
+.loaded .splash {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
 /* @keyframes & transitions */
 /*Regular give.css */
 .gv-main-face {

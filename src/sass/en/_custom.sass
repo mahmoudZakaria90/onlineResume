@@ -188,3 +188,18 @@
 		+gvTransition_val(height 450ms, transform 450ms 455ms)
 		h1
 			margin-bottom: 0
+
+//splash
+.splash
+	background-color: black
+	position: absolute
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	+gvTransition_val(all 450ms)
+
+.loaded
+	.splash
+		-webkit-transform: translateY(-100%)
+		transform: translateY(-100%)
