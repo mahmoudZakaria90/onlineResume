@@ -485,7 +485,7 @@ body {
 }
 .intro-list > li {
   flex-basis: 33.33333%;
-  margin-bottom: 2.4rem;
+  margin-bottom: 2rem;
 }
 .intro-list .fa {
   margin-left: 0;
