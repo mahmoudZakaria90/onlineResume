@@ -498,6 +498,9 @@ body {
 .about-list > li > em {
   font-weight: 700;
 }
+.about-list h1 {
+  margin-bottom: 0;
+}
 
 /* @keyframes & transitions */
 /*Regular give.css */
