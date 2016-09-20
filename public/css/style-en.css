@@ -496,7 +496,7 @@ body {
 
 /*about */
 .about-list > li > em {
-  margin-left: 4rem;
+  font-weight: 700;
 }
 
 /* @keyframes & transitions */
