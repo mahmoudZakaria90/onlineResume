@@ -190,17 +190,16 @@
 		font-size: $h2
 		+gvTransition_val(all 800ms)
 		backface-visibility: hidden
-		-webkit-transform: rotateY(0) translateZ(0)
-		transform: rotateY(0) translateZ(0)
+		-webkit-transform: rotateY(0) 
+		transform: rotateY(0) 
 
 	&-card
 		position: relative
-		-webkit-transform: rotateY(180deg) translateZ(0)
-		transform: rotateY(180deg) translateZ(0)
+		-webkit-transform: rotateY(180deg) 
+		transform: rotateY(180deg) 
 		backface-visibility: hidden
 		height: 0
 		bottom: 0
-		box-shadow: 0 0 1px rgba(0,0,0,0)
 		+gvTransition_val(height 450ms, transform 450ms 455ms,bottom 450ms 900ms)
 		h1
 			margin-bottom: 0
