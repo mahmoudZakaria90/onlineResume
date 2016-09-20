@@ -403,7 +403,7 @@ body {
 }
 
 .indicator-btn2:nth-of-type(2):checked ~ .achv-inner {
-  transform: translateY(-100vh);
+  transform: translateX(-100%);
 }
 .indicator-btn2:nth-of-type(2):checked ~ .indicator-wrap2 .indicator:nth-of-type(2) {
   cursor: default;
@@ -411,7 +411,7 @@ body {
 }
 
 .indicator-btn2:nth-child(4):checked ~ .achv-inner {
-  transform: translateY(-300vh);
+  transform: translateX(-300%);
 }
 .indicator-btn2:nth-child(4):checked ~ .indicator-wrap2 .indicator:nth-child(4) {
   cursor: default;
@@ -419,7 +419,7 @@ body {
 }
 
 .indicator-btn2:nth-of-type(3):checked ~ .achv-inner {
-  transform: translateY(-200vh);
+  transform: translateX(-200%);
 }
 .indicator-btn2:nth-of-type(3):checked ~ .indicator-wrap2 .indicator:nth-of-type(3) {
   cursor: default;
@@ -427,7 +427,7 @@ body {
 }
 
 .indicator-btn2:nth-child(4):checked ~ .achv-inner {
-  transform: translateY(-300vh);
+  transform: translateX(-300%);
 }
 .indicator-btn2:nth-child(4):checked ~ .indicator-wrap2 .indicator:nth-child(4) {
   cursor: default;
