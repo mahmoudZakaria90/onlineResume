@@ -503,6 +503,11 @@ body {
   margin-bottom: 0;
 }
 
+/*respo */
+.respo h1, .respo h3 {
+  margin-bottom: 0;
+}
+
 /* @keyframes & transitions */
 /*Regular give.css */
 .gv-main-face {

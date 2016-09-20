@@ -19,8 +19,7 @@
 
 //Calling all functions on other events
 
-//placeholder for refresh
-window.location.href="#home"
+
 
 //others
 var el = document.getElementById('intro-me');
