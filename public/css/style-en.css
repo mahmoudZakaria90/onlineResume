@@ -633,8 +633,8 @@ body {
   bottom: 66px;
 }
 .hire .container.rotate .hire-btn {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg) translateZ(0);
+  transform: rotateY(180deg) translateZ(0);
   margin-bottom: 0;
 }
 .hire-btn {
@@ -648,6 +648,9 @@ body {
   -webkit-transition: all 800ms;
   transition: all 800ms;
   backface-visibility: hidden;
+  -webkit-transform: rotateY(0) translateZ(0);
+  transform: rotateY(0) translateZ(0);
+  box-shadow: 0 0 1px transparent;
 }
 .hire-card {
   position: relative;
