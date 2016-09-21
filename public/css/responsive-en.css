@@ -40,6 +40,11 @@
   }
 }
 /*Med Desktop ,tablets and all mobile Sizes including (phablets) */
+@media (max-width: 940px) {
+  .achv-item {
+    width: 50%;
+  }
+}
 /*Tablet (portrait) and all mobile Sizes including (phablets) */
 @media (max-width: 800px) {
   .intro-list > li {
