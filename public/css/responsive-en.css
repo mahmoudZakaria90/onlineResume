@@ -23,6 +23,10 @@
   .container {
     padding: 0 3rem;
   }
+
+  .splash {
+    display: none;
+  }
 }
 /*Med Desktop ,tablets and all mobile Sizes including (phablets) */
 /*Tablet (portrait) and all mobile Sizes including (phablets) */
