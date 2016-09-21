@@ -33,11 +33,9 @@
 @media (max-width: 800px) {
   .intro-list > li {
     flex-basis: 50%;
-  }
-}
-@media (max-width: 600px) {
-  .intro-list {
-    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 /*Mobile Landscape to Portrait */
