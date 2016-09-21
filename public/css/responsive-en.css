@@ -30,6 +30,11 @@
 }
 /*Med Desktop ,tablets and all mobile Sizes including (phablets) */
 /*Tablet (portrait) and all mobile Sizes including (phablets) */
+@media (max-width: 800px) {
+  .intro-list > li {
+    flex-basis: 50%;
+  }
+}
 /*Mobile Landscape to Portrait */
 /*Mobile  Portrait */
 /*Med Desktop To infinite */
