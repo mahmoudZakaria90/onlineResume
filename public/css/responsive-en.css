@@ -59,6 +59,11 @@
     text-align: center;
   }
 }
+@media (max-width: 400px) {
+  .skills-item {
+    width: 100%;
+  }
+}
 /*Mobile  Portrait */
 /*Med Desktop To infinite */
 /*Tablet  to infinite */
