@@ -50,9 +50,13 @@
   }
   .hire-card {
     height: auto;
+    transform: none;
   }
   .hire-card ul {
     flex-wrap: wrap;
+  }
+  .hire-btn {
+    display: none;
   }
 }
 /*Med Desktop ,tablets and all mobile Sizes including (phablets) */
