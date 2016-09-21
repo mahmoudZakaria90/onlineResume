@@ -39,6 +39,11 @@
   }
 }
 /*Mobile Landscape to Portrait */
+@media (max-width: 479px) {
+  .intro-list {
+    display: block;
+  }
+}
 /*Mobile  Portrait */
 /*Med Desktop To infinite */
 /*Tablet  to infinite */
