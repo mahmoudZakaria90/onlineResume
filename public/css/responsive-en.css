@@ -38,6 +38,13 @@
   .achv-inner {
     display: block;
   }
+
+  .hire .container {
+    height: auto;
+  }
+  .hire .container.rotated {
+    height: auto;
+  }
 }
 /*Med Desktop ,tablets and all mobile Sizes including (phablets) */
 @media (max-width: 940px) {
