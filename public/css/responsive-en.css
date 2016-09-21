@@ -42,6 +42,7 @@
 @media (max-width: 479px) {
   .intro-list {
     display: block;
+    text-align: center;
   }
 }
 /*Mobile  Portrait */
