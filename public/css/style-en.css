@@ -655,6 +655,8 @@ body {
   font-size: 2.4rem;
   -webkit-transition: all 800ms;
   transition: all 800ms;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform: rotateY(0);
   transform: rotateY(0);
