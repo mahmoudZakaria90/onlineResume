@@ -45,6 +45,9 @@
   .hire .container.rotate {
     height: auto;
   }
+  .hire .container.rotate .hire-card {
+    height: auto;
+  }
   .hire-card {
     height: auto;
   }
