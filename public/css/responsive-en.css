@@ -10,6 +10,10 @@
     overflow: visible;
   }
 
+  li {
+    margin-bottom: 1rem;
+  }
+
   .layer {
     height: auto;
     padding: 3rem 0;
