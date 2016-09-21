@@ -5,6 +5,16 @@
 @media(min-width: 1600px);
 @media(min-width: 1920px);
 @media(max-width: 1366px);
+@media (max-width: 1355px) {
+  body {
+    overflow: visible;
+  }
+
+  .layer {
+    height: auto;
+    padding: 1.5rem 0;
+  }
+}
 /*Med Desktop ,tablets and all mobile Sizes including (phablets) */
 /*Tablet (portrait) and all mobile Sizes including (phablets) */
 /*Mobile Landscape to Portrait */
