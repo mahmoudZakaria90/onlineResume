@@ -669,9 +669,6 @@ body {
   -webkit-transition: height 450ms, transform 450ms 455ms, bottom 450ms 900ms;
   transition: height 450ms, transform 450ms 455ms, bottom 450ms 900ms;
 }
-.hire-card h1 {
-  margin-bottom: 0;
-}
 
 .splash {
   background-color: black;
