@@ -42,7 +42,7 @@
   .hire .container {
     height: auto;
   }
-  .hire .container.rotated {
+  .hire .container.rotate {
     height: auto;
   }
 }
