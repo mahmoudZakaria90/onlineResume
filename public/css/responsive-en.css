@@ -35,6 +35,11 @@
     flex-basis: 50%;
   }
 }
+@media (max-width: 600px) {
+  .intro-list {
+    display: block;
+  }
+}
 /*Mobile Landscape to Portrait */
 /*Mobile  Portrait */
 /*Med Desktop To infinite */
