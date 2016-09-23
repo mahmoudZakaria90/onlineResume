@@ -478,24 +478,27 @@ body {
 }
 .layer1 {
   background-color: #4da6db;
-  background-image: linear-gradient(to bottom, #4da6db, #86cffb);
+  background-image: linear-gradient(to bottom, #4da6db, #3cb4fd);
 }
 .layer2 {
   background-color: #eb4242;
-  background-image: linear-gradient(to bottom, #eb4242, #ff6868);
+  background-image: linear-gradient(to bottom, #eb4242, #e86666);
 }
 .layer3 {
   background-color: #ff9125;
-  background-image: linear-gradient(to bottom, #eb4242, #f9a553);
+  background-image: linear-gradient(to bottom, #ff9125, #fd9c3c);
 }
 .layer4 {
   background-color: #9a53a9;
+  background-image: linear-gradient(to bottom, #9a53a9, #96709e);
 }
 .layer5 {
   background-color: #4da6db;
+  background-image: linear-gradient(to bottom, #4da6db, #3cb4fd);
 }
 .layer6 {
   background-color: #6db2c8;
+  background-image: linear-gradient(to bottom, #6db2c8, #7fb4c5);
 }
 .layer-wrap {
   -webkit-transition: all 1s;
