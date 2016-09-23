@@ -1,11 +1,4 @@
 //onLoad
-function test(){
-	alert('test')
-}
-test()
-window.addEventListener('load',function(){
-	test()
-})
 
 window.addEventListener('load',function(){
 	document.body.className = "loaded"
