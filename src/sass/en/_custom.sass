@@ -38,9 +38,11 @@
 	display: flex
 	position: relative
 	&1
-		background-color: $intro-color
+		background-color: $intro-color /*for fallbacks browsers*/
+		background-image: linear-gradient(to bottom, $intro-color, lighten($intro-color))
 	&2
 		background-color: $about-color
+		background-image: linear-gradient(to bottom, $about-color, lighten($about-color))
 	&3
 		background-color: $respo-color
 	&4
