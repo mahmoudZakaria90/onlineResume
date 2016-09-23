@@ -1,5 +1,4 @@
 //onLoad
-
 window.addEventListener('load',function(){
 	document.body.className = "loaded"
 })
