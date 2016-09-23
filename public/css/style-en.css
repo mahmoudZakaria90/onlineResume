@@ -478,11 +478,11 @@ body {
 }
 .layer1 {
   background-color: #4da6db;
-  background-image: linear-gradient(to bottom, #4da6db, #4fa7db);
+  background-image: linear-gradient(to bottom, #4da6db, white);
 }
 .layer2 {
   background-color: #eb4242;
-  background-image: linear-gradient(to bottom, #eb4242, #eb4444);
+  background-image: linear-gradient(to bottom, #eb4242, white);
 }
 .layer3 {
   background-color: #ff9125;
