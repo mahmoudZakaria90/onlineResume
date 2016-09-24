@@ -1,6 +1,7 @@
 //onLoad
 window.addEventListener('load',function(){
-	document.body.className = "loaded"
+	document.body.className = "loaded";
+	this.location.href="#home"
 })
 
 
