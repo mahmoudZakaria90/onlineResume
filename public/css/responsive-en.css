@@ -51,6 +51,8 @@
   .hire-card {
     height: auto;
     transform: none;
+    bottom: 0;
+    backface-visibility: visible;
   }
   .hire-card ul {
     flex-wrap: wrap;
