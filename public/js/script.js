@@ -1,7 +1,7 @@
 //onLoad
+this.location.href="#home"
 window.addEventListener('load',function(){
 	document.body.className = "loaded";
-	this.location.href="#home"
 })
 
 
