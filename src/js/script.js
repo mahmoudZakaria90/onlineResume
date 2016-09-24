@@ -1,5 +1,5 @@
 //onLoad
-this.location.href="#home"
+window.location.href = "#home"
 window.addEventListener('load',function(){
 	document.body.className = "loaded";
 })
