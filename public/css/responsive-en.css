@@ -50,7 +50,7 @@
   }
   .hire-card {
     height: auto;
-    transform: none;
+    transform: rotate(0deg);
     bottom: 0;
     -webkit-backface-visibility: visible;
     -moz-backface-visibility: visible;
