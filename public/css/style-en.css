@@ -304,7 +304,7 @@ body {
   overflow: hidden;
 }
 
-.indicator-btn:first-child:checked ~ .indicator-wrap .indicator:first-child {
+.indicator-btn:first-of-type:checked ~ .indicator-wrap .indicator:first-of-type {
   cursor: default;
   background-color: #333;
 }
@@ -327,10 +327,10 @@ body {
   background-color: #333;
 }
 
-.indicator-btn:nth-child(6):checked ~ .layer-wrap {
+.indicator-btn:nth-of-type(6):checked ~ .layer-wrap {
   transform: translateY(-500vh);
 }
-.indicator-btn:nth-child(6):checked ~ .indicator-wrap .indicator:nth-child(6) {
+.indicator-btn:nth-of-type(6):checked ~ .indicator-wrap .indicator:nth-of-type(6) {
   cursor: default;
   background-color: #333;
 }
@@ -343,10 +343,10 @@ body {
   background-color: #333;
 }
 
-.indicator-btn:nth-child(6):checked ~ .layer-wrap {
+.indicator-btn:nth-of-type(6):checked ~ .layer-wrap {
   transform: translateY(-500vh);
 }
-.indicator-btn:nth-child(6):checked ~ .indicator-wrap .indicator:nth-child(6) {
+.indicator-btn:nth-of-type(6):checked ~ .indicator-wrap .indicator:nth-of-type(6) {
   cursor: default;
   background-color: #333;
 }
@@ -359,10 +359,10 @@ body {
   background-color: #333;
 }
 
-.indicator-btn:nth-child(6):checked ~ .layer-wrap {
+.indicator-btn:nth-of-type(6):checked ~ .layer-wrap {
   transform: translateY(-500vh);
 }
-.indicator-btn:nth-child(6):checked ~ .indicator-wrap .indicator:nth-child(6) {
+.indicator-btn:nth-of-type(6):checked ~ .indicator-wrap .indicator:nth-of-type(6) {
   cursor: default;
   background-color: #333;
 }
@@ -375,15 +375,15 @@ body {
   background-color: #333;
 }
 
-.indicator-btn:nth-child(6):checked ~ .layer-wrap {
+.indicator-btn:nth-of-type(6):checked ~ .layer-wrap {
   transform: translateY(-500vh);
 }
-.indicator-btn:nth-child(6):checked ~ .indicator-wrap .indicator:nth-child(6) {
+.indicator-btn:nth-of-type(6):checked ~ .indicator-wrap .indicator:nth-of-type(6) {
   cursor: default;
   background-color: #333;
 }
 
-.indicator-btn2:first-child:checked ~ .indicator-wrap2 .indicator:first-child {
+.indicator-btn2:first-of-type:checked ~ .indicator-wrap2 .indicator:first-of-type {
   cursor: default;
   background-color: #333;
 }
@@ -404,34 +404,34 @@ body {
   content: none;
 }
 
-.indicator-btn2:nth-child(2):checked ~ .container .achv-slider .achv-inner, .indicator-btn2:nth-child(2):checked ~ .container .skills-slider .skills-slider-inner {
+.indicator-btn2:nth-of-type(2):checked ~ .container .achv-slider .achv-inner, .indicator-btn2:nth-of-type(2):checked ~ .container .skills-slider .skills-slider-inner {
   transform: translateX(-100%);
 }
-.indicator-btn2:nth-child(2):checked ~ .indicator-wrap2 .indicator:nth-of-type(2) {
+.indicator-btn2:nth-of-type(2):checked ~ .indicator-wrap2 .indicator:nth-of-type(2) {
   cursor: default;
   background-color: #333;
 }
 
-.indicator-btn2:nth-child(4):checked ~ .container .achv-slider .achv-inner, .indicator-btn2:nth-child(4):checked ~ .container .skills-slider .skills-slider-inner {
+.indicator-btn2:nth-of-type(4):checked ~ .container .achv-slider .achv-inner, .indicator-btn2:nth-of-type(4):checked ~ .container .skills-slider .skills-slider-inner {
   transform: translateX(-300%);
 }
-.indicator-btn2:nth-child(4):checked ~ .indicator-wrap2 .indicator:nth-child(4) {
+.indicator-btn2:nth-of-type(4):checked ~ .indicator-wrap2 .indicator:nth-of-type(4) {
   cursor: default;
   background-color: #333;
 }
 
-.indicator-btn2:nth-child(3):checked ~ .container .achv-slider .achv-inner, .indicator-btn2:nth-child(3):checked ~ .container .skills-slider .skills-slider-inner {
+.indicator-btn2:nth-of-type(3):checked ~ .container .achv-slider .achv-inner, .indicator-btn2:nth-of-type(3):checked ~ .container .skills-slider .skills-slider-inner {
   transform: translateX(-200%);
 }
-.indicator-btn2:nth-child(3):checked ~ .indicator-wrap2 .indicator:nth-of-type(3) {
+.indicator-btn2:nth-of-type(3):checked ~ .indicator-wrap2 .indicator:nth-of-type(3) {
   cursor: default;
   background-color: #333;
 }
 
-.indicator-btn2:nth-child(4):checked ~ .container .achv-slider .achv-inner, .indicator-btn2:nth-child(4):checked ~ .container .skills-slider .skills-slider-inner {
+.indicator-btn2:nth-of-type(4):checked ~ .container .achv-slider .achv-inner, .indicator-btn2:nth-of-type(4):checked ~ .container .skills-slider .skills-slider-inner {
   transform: translateX(-300%);
 }
-.indicator-btn2:nth-child(4):checked ~ .indicator-wrap2 .indicator:nth-child(4) {
+.indicator-btn2:nth-of-type(4):checked ~ .indicator-wrap2 .indicator:nth-of-type(4) {
   cursor: default;
   background-color: #333;
 }
