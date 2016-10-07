@@ -383,7 +383,7 @@ body {
   background-color: #333;
 }
 
-.indicator-btn2:first-child:checked ~ .indicator-wrap2 .indicator:first-child {
+.indicator-btn2:first-child:checked ~ .indicator-wrap2 .indicator:first-child:checked {
   cursor: default;
   background-color: #333;
 }
