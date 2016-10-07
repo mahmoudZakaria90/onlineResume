@@ -25,7 +25,7 @@
 			& ~ .indicator-wrap .indicator:nth-of-type(#{$i})
 				cursor: default
 				background-color: #333
-		.indicator-btn:nth-child(#{$base}):checked 
+		.indicator-btn:nth-of-type(#{$base}):checked 
 			& ~ .layer-wrap
 				transform: translateY(-($base - 1) * 100vh)
 			& ~ .indicator-wrap .indicator:nth-child(#{$base})
@@ -58,7 +58,7 @@
 			& ~ .indicator-wrap2 .indicator:nth-of-type(#{$i})
 				cursor: default
 				background-color: #333
-		.indicator-btn2:nth-child(#{$base}):checked 
+		.indicator-btn2:nth-of-type(#{$base}):checked 
 			& ~ .container .achv-slider .achv-inner,& ~ .container .skills-slider .skills-slider-inner
 				transform: translateX(-($base - 1) * 100%)
 			& ~ .indicator-wrap2 .indicator:nth-child(#{$base})
