@@ -52,14 +52,14 @@
 				content: none
 	@for $i from 2 to $base
 		.indicator-btn2:nth-of-type(#{$i}):checked
-			& ~ .container .achv-slider .achv-inner
+			& ~ .container .achv-slider .achv-inner,& ~ .container .skills-slider .skills-inner
 				transform: translateX(-($i - 1) * 100%)
 
 			& ~ .indicator-wrap2 .indicator:nth-of-type(#{$i})
 				cursor: default
 				background-color: #333
 		.indicator-btn2:nth-child(#{$base}):checked 
-			& ~ .container .achv-slider .achv-inner
+			& ~ .container .achv-slider .achv-inner,& ~ .container .skills-slider .skills-inner
 				transform: translateX(-($base - 1) * 100%)
 			& ~ .indicator-wrap2 .indicator:nth-child(#{$base})
 				cursor: default

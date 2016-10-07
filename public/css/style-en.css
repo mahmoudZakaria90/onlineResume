@@ -404,7 +404,7 @@ body {
   content: none;
 }
 
-.indicator-btn2:nth-of-type(2):checked ~ .container .achv-slider .achv-inner {
+.indicator-btn2:nth-of-type(2):checked ~ .container .achv-slider .achv-inner, .indicator-btn2:nth-of-type(2):checked ~ .container .skills-slider .skills-inner {
   transform: translateX(-100%);
 }
 .indicator-btn2:nth-of-type(2):checked ~ .indicator-wrap2 .indicator:nth-of-type(2) {
@@ -412,7 +412,7 @@ body {
   background-color: #333;
 }
 
-.indicator-btn2:nth-child(4):checked ~ .container .achv-slider .achv-inner {
+.indicator-btn2:nth-child(4):checked ~ .container .achv-slider .achv-inner, .indicator-btn2:nth-child(4):checked ~ .container .skills-slider .skills-inner {
   transform: translateX(-300%);
 }
 .indicator-btn2:nth-child(4):checked ~ .indicator-wrap2 .indicator:nth-child(4) {
@@ -420,7 +420,7 @@ body {
   background-color: #333;
 }
 
-.indicator-btn2:nth-of-type(3):checked ~ .container .achv-slider .achv-inner {
+.indicator-btn2:nth-of-type(3):checked ~ .container .achv-slider .achv-inner, .indicator-btn2:nth-of-type(3):checked ~ .container .skills-slider .skills-inner {
   transform: translateX(-200%);
 }
 .indicator-btn2:nth-of-type(3):checked ~ .indicator-wrap2 .indicator:nth-of-type(3) {
@@ -428,7 +428,7 @@ body {
   background-color: #333;
 }
 
-.indicator-btn2:nth-child(4):checked ~ .container .achv-slider .achv-inner {
+.indicator-btn2:nth-child(4):checked ~ .container .achv-slider .achv-inner, .indicator-btn2:nth-child(4):checked ~ .container .skills-slider .skills-inner {
   transform: translateX(-300%);
 }
 .indicator-btn2:nth-child(4):checked ~ .indicator-wrap2 .indicator:nth-child(4) {
