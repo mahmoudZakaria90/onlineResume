@@ -125,6 +125,12 @@
 		font-size: 2rem
 /*skills*/
 .skills
+	&-slider
+		overflow: hidden
+	&-inner
+		+gvTransition_val(all 450ms)
+	&-slide
+		flex-basis: 100%
 	&-item
 		margin-bottom: 2.5rem
 	&-inner

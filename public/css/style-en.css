@@ -573,6 +573,16 @@ body {
 }
 
 /*skills */
+.skills-slider {
+  overflow: hidden;
+}
+.skills-inner {
+  -webkit-transition: all 450ms;
+  transition: all 450ms;
+}
+.skills-slide {
+  flex-basis: 100%;
+}
 .skills-item {
   margin-bottom: 2.5rem;
 }
