@@ -34,7 +34,7 @@
 
 =slider-semi-h()
 	$base: 4
-	.indicator-btn2:first-of-type:checked ~ .indicator-wrap2 .indicator:first-of-type
+	.indicator-btn2:first-child:checked ~ .indicator-wrap2 .indicator:first-child
 		cursor: default
 		background-color: #333
 	
@@ -51,14 +51,14 @@
 			&:before
 				content: none
 	@for $i from 2 to $base
-		.indicator-btn2:nth-of-type(#{$i}):checked
+		.indicator-btn2:nth-child(#{$i}):checked
 			& ~ .container .achv-slider .achv-inner,& ~ .container .skills-slider .skills-slider-inner
 				transform: translateX(-($i - 1) * 100%)
 
 			& ~ .indicator-wrap2 .indicator:nth-of-type(#{$i})
 				cursor: default
 				background-color: #333
-		.indicator-btn2:nth-of-type(#{$base}):checked 
+		.indicator-btn2:nth-child(#{$base}):checked 
 			& ~ .container .achv-slider .achv-inner,& ~ .container .skills-slider .skills-slider-inner
 				transform: translateX(-($base - 1) * 100%)
 			& ~ .indicator-wrap2 .indicator:nth-child(#{$base})
