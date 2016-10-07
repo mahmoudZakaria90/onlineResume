@@ -304,7 +304,7 @@ body {
   overflow: hidden;
 }
 
-.indicator-btn:first-of-type:checked ~ .indicator-wrap .indicator:first-of-type {
+.indicator-btn:first-child:checked ~ .indicator-wrap .indicator:first-child {
   cursor: default;
   background-color: #333;
 }
@@ -327,10 +327,10 @@ body {
   background-color: #333;
 }
 
-.indicator-btn:nth-of-type(6):checked ~ .layer-wrap {
+.indicator-btn:nth-child(6):checked ~ .layer-wrap {
   transform: translateY(-500vh);
 }
-.indicator-btn:nth-of-type(6):checked ~ .indicator-wrap .indicator:nth-child(6) {
+.indicator-btn:nth-child(6):checked ~ .indicator-wrap .indicator:nth-child(6) {
   cursor: default;
   background-color: #333;
 }
@@ -343,10 +343,10 @@ body {
   background-color: #333;
 }
 
-.indicator-btn:nth-of-type(6):checked ~ .layer-wrap {
+.indicator-btn:nth-child(6):checked ~ .layer-wrap {
   transform: translateY(-500vh);
 }
-.indicator-btn:nth-of-type(6):checked ~ .indicator-wrap .indicator:nth-child(6) {
+.indicator-btn:nth-child(6):checked ~ .indicator-wrap .indicator:nth-child(6) {
   cursor: default;
   background-color: #333;
 }
@@ -359,10 +359,10 @@ body {
   background-color: #333;
 }
 
-.indicator-btn:nth-of-type(6):checked ~ .layer-wrap {
+.indicator-btn:nth-child(6):checked ~ .layer-wrap {
   transform: translateY(-500vh);
 }
-.indicator-btn:nth-of-type(6):checked ~ .indicator-wrap .indicator:nth-child(6) {
+.indicator-btn:nth-child(6):checked ~ .indicator-wrap .indicator:nth-child(6) {
   cursor: default;
   background-color: #333;
 }
@@ -375,10 +375,10 @@ body {
   background-color: #333;
 }
 
-.indicator-btn:nth-of-type(6):checked ~ .layer-wrap {
+.indicator-btn:nth-child(6):checked ~ .layer-wrap {
   transform: translateY(-500vh);
 }
-.indicator-btn:nth-of-type(6):checked ~ .indicator-wrap .indicator:nth-child(6) {
+.indicator-btn:nth-child(6):checked ~ .indicator-wrap .indicator:nth-child(6) {
   cursor: default;
   background-color: #333;
 }

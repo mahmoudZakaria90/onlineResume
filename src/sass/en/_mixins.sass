@@ -6,7 +6,7 @@
 	body
 		overflow: hidden
 	$base: 6
-	.indicator-btn:first-of-type:checked ~ .indicator-wrap .indicator:first-of-type
+	.indicator-btn:first-child:checked ~ .indicator-wrap .indicator:first-child
 		cursor: default
 		background-color: #333
 	
@@ -25,7 +25,7 @@
 			& ~ .indicator-wrap .indicator:nth-of-type(#{$i})
 				cursor: default
 				background-color: #333
-		.indicator-btn:nth-of-type(#{$base}):checked 
+		.indicator-btn:nth-child(#{$base}):checked 
 			& ~ .layer-wrap
 				transform: translateY(-($base - 1) * 100vh)
 			& ~ .indicator-wrap .indicator:nth-child(#{$base})
