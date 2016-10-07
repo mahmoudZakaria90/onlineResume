@@ -576,7 +576,7 @@ body {
 .skills-slider {
   overflow: hidden;
 }
-.skills-inner {
+.skills-slider-inner {
   -webkit-transition: all 450ms;
   transition: all 450ms;
 }
