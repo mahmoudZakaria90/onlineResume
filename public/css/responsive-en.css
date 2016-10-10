@@ -6,7 +6,11 @@
 }
 @media(max-width: 1366px);
 /*HD */
-@media(min-width: 1440px);
+@media(min-width: 1440px) {
+  .respo {
+    line-height: 1.5;
+  }
+}
 @media(min-width: 1600px);
 @media(min-width: 1920px);
 @media(max-width: 1366px);
