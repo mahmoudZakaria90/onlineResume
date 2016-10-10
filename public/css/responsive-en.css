@@ -11,7 +11,7 @@
     line-height: 1.5;
   }
   .respo li {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
 }
 @media(min-width: 1600px);
