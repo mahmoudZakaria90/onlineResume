@@ -1,20 +1,19 @@
 var gulp = require('gulp')
 var sass = require('gulp-ruby-sass')
 var connect = require('gulp-connect')
-
-
-
+var uglify = require('gulp-uglify');
+var pump = require('pump');
 
 //sass
 gulp.task('sass', function () {
-   sass('./src/sass/en/*.sass',{style:'expanded'})
+   sass('./src/sass/en/*.sass',{style:'compressed'})
     .on('error', sass.logError)
     .pipe(connect.reload())
     .pipe(gulp.dest('./public/css'));
 });
 
 gulp.task('sass-ar', function () {   
-   sass('./src/sass/ar/*.sass',{style:'expanded'})
+   sass('./src/sass/ar/*.sass',{style:'compressed'})
     .on('error', sass.logError)
     .pipe(connect.reload())
     .pipe(gulp.dest('./public/css'));
@@ -43,6 +42,17 @@ gulp.task('js', function() {
 
 })
 
+//js uglify
+gulp.task('compress', function (cb) {
+  pump([
+        gulp.src('public/js/*.js'),
+        uglify(),
+        gulp.dest('public/js/')
+    ],
+    cb
+  );
+});
+
 //connect 
 gulp.task('server',function(){
 	connect.server({
@@ -52,4 +62,4 @@ gulp.task('server',function(){
 })
 
 //default
-gulp.task('default',['watch','server'])
+gulp.task('default',['watch','server','compress'])
