@@ -14,7 +14,7 @@
 		display: block
 		margin-bottom: 1.5rem
 		&-wrap
-			right: 1.5rem
+			right: 3.5rem
 			top: 50%
 			transform: translateY(-50%)
 	@for $i from 2 to $base
@@ -39,7 +39,7 @@
 		background-color: #333
 	
 	.indicator-wrap2 
-		bottom: 2%
+		bottom: 3%
 		right: auto
 		top: auto
 		left: 50%
@@ -50,6 +50,12 @@
 			margin-bottom: 0
 			&:before
 				content: none
+		@media(min-width: 1600px)
+			&
+				bottom: 6%
+		@media(min-width: 1900px)
+			&
+				bottom: 15%
 	@for $i from 2 to $base
 		.indicator-btn2:nth-of-type(#{$i}):checked
 			& ~ .container .achv-slider .achv-inner,& ~ .container .skills-slider .skills-slider-inner

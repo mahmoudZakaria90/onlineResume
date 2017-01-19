@@ -64,7 +64,7 @@ gulp.task('compress', function (cb) {
 //connect 
 gulp.task('server',function(){
 	connect.server({
-		root: 'public',
+		root: './',
 		livereload: true
 	})
 })
