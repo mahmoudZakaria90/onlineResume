@@ -26,15 +26,13 @@ hireBtn.addEventListener('mousedown',rotate)
 
 //Dates and Years
 function dates(){
-	var myAge = document.getElementById('myAge');
+	
 	var myExp = document.getElementById('myExp');
-
 	var exp = 2013
 
 	var myBirthday = new Date("June 11, 1990")
 	var now = new Date()
 	if(now.getDate() === myBirthday.getDate() && now.getMonth() === myBirthday.getMonth()){
-		myAge.innerHTML = now.getFullYear() - myBirthday.getFullYear()
 		myExp.innerHTML = now.getFullYear() - exp
 	}
 }
