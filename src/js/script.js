@@ -29,10 +29,10 @@ function dates(){
 	
 	var myExp = document.getElementById('myExp');
 	var exp = 2013
-
-	var myBirthday = new Date("June 11, 1990")
+	var expMonth = 10
 	var now = new Date()
-	if(now.getDate() === myBirthday.getDate() && now.getMonth() === myBirthday.getMonth()){
+
+	if(now.getMonth() + 1 === expMonth){
 		myExp.innerHTML = now.getFullYear() - exp
 	}
 }
