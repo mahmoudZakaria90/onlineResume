@@ -24,14 +24,14 @@ gulp.task('sass-ar', function () {
 gulp.task('watch',function(){
 	gulp.watch('./src/sass/en/*.sass',['sass'])
  	gulp.watch('./src/sass/ar/*.sass',['sass-ar'])
-	gulp.watch('./public/**/*.html',['html'])
+	gulp.watch('./*.html',['html'])
 	gulp.watch('./src/js/*.js',['js'])
 })
 
 
 //html
 gulp.task('html', function() {
-	gulp.src('./public/**/*.html')
+	gulp.src('./*.html')
 		.pipe(connect.reload());
 
 })

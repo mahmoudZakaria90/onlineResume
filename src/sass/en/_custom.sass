@@ -55,6 +55,11 @@ li
 		display: flex
 		padding-top: 0
 		padding-bottom: 0
+	&1
+		flex-direction: column
+		&>*
+			flex: 0 1
+
 		
 	&2
 		background-color: $about-color
@@ -76,6 +81,11 @@ li
 
 /*intro*/
 .intro
+	&-scroll
+		// position: absolute
+		bottom: 0
+		left: 0
+		right: 0
 	&-me
 		position: relative
 		-webkit-user-select: none

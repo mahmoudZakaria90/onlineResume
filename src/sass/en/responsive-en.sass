@@ -13,12 +13,10 @@
 @media(min-width: 1920px)
 
 
-@media (min-width: 1200px)
-
-
-@media(max-width: 960px)
-	body
-		overflow: visible
+@media (max-width: 1023px)
+	.intro
+		&-scroll
+			display: none
 	.layer
 		padding-right: 0
 		&1, &6
@@ -26,8 +24,16 @@
 			display: block
 			padding-top: 4rem
 			padding-bottom: 4rem
+
+@media(max-width: 1024px)
+	body
+		overflow: visible
+	
 	.scroller
 		position: static
+
+	.layer
+		padding-right: 0
 
 
 @media (max-width: 1355px)
