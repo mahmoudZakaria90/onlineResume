@@ -2,9 +2,11 @@
 window.location.href = "#home"
 window.addEventListener('load',function(){
 	document.body.className = "loaded";
-	setTimeout(function(){
-		document.getElementsByClassName('scroller')[0].className += ' loaded'
-	}, 2000)
+	if(window.innerWidth > 1355){
+		setTimeout(function(){
+			document.getElementsByClassName('scroller')[0].className += ' loaded'
+		}, 2000)
+	}
 	dates()
 })
 
