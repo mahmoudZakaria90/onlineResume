@@ -4,6 +4,9 @@
 // +slider-full-v()
 +slider-semi-h()
 
+li
+	margin-bottom: 1rem
+
 .scroller
 	position: absolute
 	top: 0
@@ -44,11 +47,13 @@
 		text-transform: capitalize
 
 .layer
-	height: 100vh
-	display: flex
+	padding: 4rem 0
 	position: relative
-	&1
+	&1,&6
 		background-color: $intro-color 
+		height: 100vh
+		display: flex
+		padding: 0
 		
 	&2
 		background-color: $about-color
@@ -151,13 +156,9 @@
 		border: 2px solid white
 		border-radius: 50%
 		line-height: 155px
-	.container
-		width: 960px
 
 /*achives*/
 .achv
-	.container
-		width: 960px
 	&-slider
 		overflow: hidden
 	&-inner

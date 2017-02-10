@@ -52,12 +52,7 @@
 			margin-bottom: 0
 			&:before
 				content: none
-		@media(min-width: 1600px)
-			&
-				bottom: 6%
-		@media(min-width: 1900px)
-			&
-				bottom: 15%
+		
 	@for $i from 2 to $base
 		.indicator-btn2:nth-of-type(#{$i}):checked
 			& ~ .container .achv-slider .achv-inner,& ~ .container .skills-slider .skills-slider-inner
