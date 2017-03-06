@@ -1,5 +1,5 @@
 //onLoad
-window.location.href = "#home"
+window.location.href = "#intro"
 window.addEventListener('load',function(){
 	document.body.className = "loaded";
 	if(window.innerWidth > 1355){
