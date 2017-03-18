@@ -261,25 +261,22 @@ li
 		-webkit-transform: translateY(-100%)
 		transform: translateY(-100%)
 
-.rain-wrap
+.snippet
 	position: relative
-	display: inline-block
-	right: .8rem
-.clouds
-	position: relative
-	margin: 0 auto
-	width: 25px
-	height: 12px
-	border-radius: 50%
-	background: lightblue
-	box-shadow: 15px -6px 0 4px lightblue,-9px -9px 0 2px lightblue
-	z-index: 5
+	margin: auto
+	font-size: 10px
 
-.bolt
-	text-align: center
-	display: block
-	margin-top: .2em
-	font-size: 2em
-	opacity: 0
-	animation: bolt 2s infinite
-
+.spinner8
+	width: 0
+	height: 0
+	border: 2.5em solid transparent
+	border-right-color: #51b5e3
+	border-left-color: #ea8b49
+	border-bottom-color: transparent
+	border-radius: 10px
+	top: 0
+	left: 0
+	-webkit-transform: scaleY(0)
+	transform: scaleY(0)
+	box-shadow: 0 0 1px rgba(0,0,0,0)
+	animation: scaleY 65ms infinite alternate,move 5s infinite
