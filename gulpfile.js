@@ -39,6 +39,7 @@ gulp.task('html', function() {
 //js
 gulp.task('js', function() {
 	gulp.src('./src/js/*.js')
+  .pipe(connect.reload())
 	.pipe(gulp.dest('./public/js'));
 
 })

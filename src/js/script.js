@@ -32,9 +32,12 @@ hireBtn.addEventListener('mousedown',rotate)
 function dates(){
 	
 	var myExp = document.getElementById('myExp');
-	var exp = 2013
-	var expMonth = 10
-	var now = new Date()
+	var exp = 2013;
+	var expMonth = 10;
+	var now = new Date();
+	var copyDate = document.getElementById('copyDate');
+
+	copyDate.innerHTML = new Date().getFullYear();
 
 	if(now.getMonth() + 1 === expMonth){
 		myExp.innerHTML = now.getFullYear() - exp
