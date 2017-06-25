@@ -100,8 +100,10 @@ li
 		border-radius: 50%
 		-webkit-box-shadow: 0 5px 4px #00639e
 		box-shadow: 0 5px 4px #00639e
-		animation: shadowGlow 1.5s infinite ease-in-out
 		+gvTransition_val(all 450ms)
+		&.is-shadow
+			animation: shadowPulse 1s infinite ease-in-out alternate
+
 		&:hover:before
 			opacity: 1
 

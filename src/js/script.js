@@ -12,13 +12,17 @@ window.addEventListener('load',function(){
 
 //intro-me
 var el = document.getElementById('intro-me');
-function zoomMe(){
-	this.classList.toggle('zoomed')
+function zoomMe(e){
+	e.stopPropagation();
+	this.classList.toggle('zoomed');
+	this.classList.remove('is-shadow');
 	window.removeEventListener('mousedown',zoomMe)
 }
 
-el.addEventListener('mousedown',zoomMe)
-
+el.addEventListener('mousedown',zoomMe);
+document.body.addEventListener('mousedown', function(){
+	el.classList.remove('zoomed');
+});
 
 //hire-me
 var hireBtn = document.getElementById('hire-btn');
