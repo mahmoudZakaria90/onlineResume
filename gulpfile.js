@@ -4,11 +4,13 @@ var connect = require('gulp-connect')
 var uglify = require('gulp-uglify');
 var pump = require('pump');
 var csso = require('gulp-csso');
+var autoprefixer = require('gulp-autoprefixer');
 
 //sass
 gulp.task('sass', function () {
    sass('./src/sass/en/*.sass',{style:'compressed'})
     .on('error', sass.logError)
+    .pipe(autoprefixer())
     .pipe(connect.reload())
     .pipe(gulp.dest('./public/css'));
 });
@@ -44,23 +46,6 @@ gulp.task('js', function() {
 
 })
 
-//css minify
-gulp.task('csso', function () {
-    return gulp.src('./public/css/*.css')
-        .pipe(csso())
-        .pipe(gulp.dest('./public/css'));
-});
-
-//js uglify
-gulp.task('compress', function (cb) {
-  pump([
-        gulp.src('public/js/*.js'),
-        uglify(),
-        gulp.dest('public/js/')
-    ],
-    cb
-  );
-});
 
 //connect 
 gulp.task('server',function(){
@@ -71,4 +56,4 @@ gulp.task('server',function(){
 })
 
 //default
-gulp.task('default',['watch','server','compress','csso'])
+gulp.task('default',['watch','server','sass'])
