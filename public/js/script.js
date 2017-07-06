@@ -1,7 +1,10 @@
 //onLoad
 window.addEventListener('load',function(){
 	document.body.className = "loaded";
-	dates()
+	setTimeout(function(){
+		document.body.style.overflow = "visible";
+	}, 2500)
+	dates();
 })
 
 
