@@ -1,10 +1,10 @@
 //onLoad
 window.addEventListener('load',function(){
 	document.body.className = "loaded";
-	document.body.style.overflow = "visible";
-	setTimeout(function(){
+	document.querySelector('.splash').addEventListener('transitionend', function(){
 		document.querySelector('.splash').style.display = "none";
-	}, 500)
+		document.body.style.overflow = 'visible';
+	}) 
 	dates();
 })
 
