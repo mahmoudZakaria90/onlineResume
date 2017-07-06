@@ -1,1 +1,36 @@
-function zoomMe(e){e.stopPropagation(),this.classList.toggle("zoomed"),this.classList.remove("is-shadow"),window.removeEventListener("mousedown",zoomMe)}function rotate(){this.parentNode.className+=" rotate"}function dates(){var e=document.getElementById("myExp"),t=2013,n=10,o=new Date,d=document.getElementById("copyDate");d.innerHTML=(new Date).getFullYear(),o.getMonth()+1===n&&(e.innerHTML=o.getFullYear()-t)}window.addEventListener("load",function(){document.body.className="loaded",window.innerWidth>1355&&setTimeout(function(){document.getElementsByClassName("scroller")[0].className+=" loaded"},2e3),dates()});var el=document.getElementById("intro-me");el.addEventListener("mousedown",zoomMe),document.body.addEventListener("mousedown",function(){el.classList.remove("zoomed")});var hireBtn=document.getElementById("hire-btn");hireBtn.addEventListener("mousedown",rotate);
+//onLoad
+window.addEventListener('load',function(){
+	document.body.className = "loaded";
+	dates()
+})
+
+
+//intro-me
+let el = document.getElementById('intro-me');
+function zoomMe(e){
+	e.stopPropagation();
+	this.classList.toggle('zoomed');
+	window.removeEventListener('mousedown',zoomMe)
+}
+
+el.addEventListener('mousedown',zoomMe);
+document.body.addEventListener('mousedown', function(){
+	el.classList.remove('zoomed');
+});
+
+
+//Dates and Years
+function dates(){
+	
+	let myExp = document.getElementById('myExp');
+	let exp = 2013;
+	let expMonth = 10;
+	let now = new Date();
+	let copyDate = document.getElementById('copyDate');
+
+	copyDate.innerHTML = new Date().getFullYear();
+
+	if(now.getMonth() + 1 === expMonth){
+		myExp.innerHTML = now.getFullYear() - exp
+	}
+}

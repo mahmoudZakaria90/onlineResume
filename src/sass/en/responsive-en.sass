@@ -34,8 +34,11 @@
 
 	.layer
 		padding-right: 0
+
 		&6
 			padding-bottom: 0
+		&3
+			padding: 4rem 0
 
 
 @media (max-width: 1355px)
@@ -53,8 +56,6 @@
 			transform: translateY(0)
 			&2
 				display: none
-	.container
-		padding: 0 3rem
 	
 	.splash
 		display: none
@@ -91,11 +92,7 @@
 @media (max-width: 991px)
 
 @media (max-width: 940px)
-	.achv
-		&-item
-			width: 100%
-			&-inner
-				height: 450px
+
 	
 /*Tablet (portrait) and all mobile Sizes including (phablets) */
 @media (max-width: 800px)
@@ -108,6 +105,20 @@
 				text-overflow: ellipsis
 
 @media (max-width: 767px)
+	.achv
+		&-item
+			width: 100%
+			margin-bottom: 3rem
+			&-inner
+				height: 450px
+	.contact
+		.row
+			margin-bottom: 0
+		&-text
+			display: none
+		&-post
+			width: 25%
+
 	.skills
 		&-item
 			width: 33.333333%
@@ -121,14 +132,35 @@
 			width: 100%
 			&-inner
 				height: 300px
+	.history
+		&-post
+			width: 100%
+			&:nth-last-of-type(1), &:nth-last-of-type(2)
+				margin-bottom: 3rem
+			&:last-of-type
+				margin-bottom: 0
+		&-date
+			p:first-child
+				text-align: center
 			
 /*Mobile Landscape to Portrait */
 @media (max-width: 479px)
+	.about
+		&-post
+			width: 100%
+	.contact
+		&-post
+			width: 50%
+		&-email
+			font-size: 3rem
 
 	.intro
+		padding-bottom: 6rem
 		&-list
 			display: block
 			text-align: center
+		&-text
+			width: auto
 	.achv
 		&-item
 			&-inner

@@ -59,12 +59,15 @@ li
 		
 	&3
 		background-color: $respo-color
+		padding: 10rem 0
 		
 	&4
 		background-color: $skill-color
+		padding-bottom: 7rem
 		
 	&5
 		background-color: $achv-color
+		padding-bottom: 7rem
 		
 	&6
 		background-color: $hire-color
@@ -74,6 +77,19 @@ li
 
 /*intro*/
 .intro
+	&-btn
+		padding: 1.5rem 4rem
+		color: $intro-color
+		background-color: white
+		text-decoration: none
+		border: none
+		border-radius: .4rem
+		box-shadow: 0 4px 0px rgba(black,.37)
+		font-size: $h3
+		display: inline-block
+		&:hover
+			background-color: #378bbd
+			color: white
 	&-scroll
 		// position: absolute
 		bottom: 0
@@ -162,9 +178,34 @@ li
 			margin-bottom: 0
 
 
-/*respo*/
-.respo
-	line-height: 1.44
+/*history*/
+.history
+	&-post
+		margin-bottom: 3rem
+		display: flex
+		align-items: center
+		float: left
+		width: 50%
+		padding: 0 1.5rem
+		&:nth-last-of-type(1), &:nth-last-of-type(2)
+			margin-bottom: 0
+	&-date
+		width: 11rem
+		float: left
+		position: relative
+		&:before
+			content: ''
+			position: absolute
+			left: 50%
+			top: 0%
+			bottom: 0%
+			transform: translateX(-50%) rotate(76deg)
+			border: 1px dashed white
+		p
+			margin-bottom: 0
+			font-size: 3rem
+			&:last-child
+				text-align: right
 
 	h3
 		font-size: 2rem
@@ -189,23 +230,34 @@ li
 .achv
 	&-slider
 		overflow: hidden
+		margin-bottom: 3rem
 	&-inner
 		+gvTransition_val(all 450ms)
+
 	&-slide
 		flex-basis: 100%
+		.row
+			margin: 0
 
 	&-item
-		margin-bottom: 3rem
+		padding: 0
 		&-inner
 			height: 222px
-			border-radius: 4px
-			border: 2px solid white
 			position: relative
 			display: block
+			+gvTransition_val(all 450ms)
+			background-size: 150%
+			background-repeat: no-repeat
+			background-position: center center
+			box-shadow: 0 0 1px rgba(0,0,0,0)
+			transform: translateZ(0)
+			&:hover
+				background-size: 200%
+
 		h3
 			font-family: $main-face
-			padding: $reg
-			background-color: rgba(#1f1e1e,.8)
+			padding: 1rem $reg
+			background-color: rgba(#111,.9)
 			position: absolute
 			bottom: 0
 			left: 0
@@ -215,50 +267,36 @@ li
 			text-decoration: none
 			span
 				font-size: $h5
+				color: #a0a0a0
+				display: block
 
-/*hire*/
-.hire
-	.container
-		perspective: 1000px
-		+gvTransition_val(all 800ms)
-		height: 218px
-		&.rotate 
-			height: 358px
-
-			.hire
-				&-card
-					height: 144px
-					-webkit-transform: rotateY(0)
-					transform: rotateY(0)
-					bottom: 66px
-				&-btn
-					-webkit-transform: rotateY(180deg) 
-					transform: rotateY(180deg) 
-			
-	&-btn
-		padding: 1.5rem 4rem
-		color: $intro-color
-		background-color: white
-		text-decoration: none
-		border: none
-		border-radius: .4rem
-		box-shadow: 0 4px 0px rgba(black,.37)
-		font-size: $h3
-		display: inline-block
-		&:hover
-			background-color: #378bbd
-			color: white
-
-	&-card
-		position: relative
-		-webkit-transform: rotateY(180deg) 
-		transform: rotateY(180deg) 
-		-webkit-backface-visibility: hidden
-		-moz-backface-visibility: hidden
-		backface-visibility: hidden
-		height: 0
-		bottom: 0
-		+gvTransition_val(height 450ms, transform 450ms 455ms,bottom 450ms 900ms)
+/*contact*/
+.contact
+	
+	&-post
+		display: block
+		float: left
+		width: 50%
+		display: flex
+		align-items: flex-end
+		justify-content: center
+		margin-bottom: 3rem
+	&-icon
+		width: 90px
+		height: 90px
+		border: 2px dashed white
+		border-radius: 50%
+		display: flex
+		justify-content: center
+		align-items: center
+		float: left
+		padding: 0 15px
+		.fa
+			font-size: 5rem
+	&-text
+		float: left
+		padding: 0 15px
+		max-width: 300px
 
 
 //splash
