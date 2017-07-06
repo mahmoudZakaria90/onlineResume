@@ -6,7 +6,7 @@ window.addEventListener('load',function(){
 
 
 //intro-me
-let el = document.getElementById('intro-me');
+var el = document.getElementById('intro-me');
 function zoomMe(e){
 	e.stopPropagation();
 	this.classList.toggle('zoomed');
@@ -22,11 +22,11 @@ document.body.addEventListener('mousedown', function(){
 //Dates and Years
 function dates(){
 	
-	let myExp = document.getElementById('myExp');
-	let exp = 2013;
-	let expMonth = 10;
-	let now = new Date();
-	let copyDate = document.getElementById('copyDate');
+	var myExp = document.getElementById('myExp');
+	var exp = 2013;
+	var expMonth = 10;
+	var now = new Date();
+	var copyDate = document.getElementById('copyDate');
 
 	copyDate.innerHTML = new Date().getFullYear();
 
