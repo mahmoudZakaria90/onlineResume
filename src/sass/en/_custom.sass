@@ -87,9 +87,14 @@ li
 		box-shadow: 0 4px 0px rgba(black,.37)
 		font-size: $h3
 		display: inline-block
+		transition: background-color 450ms, color 450ms
+		position: relative
 		&:hover
 			background-color: #378bbd
 			color: white
+		&:active
+			top: 2px
+			box-shadow: none
 	&-scroll
 		// position: absolute
 		bottom: 0
