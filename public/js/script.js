@@ -1,1 +1,40 @@
-function zoomMe(e){e.stopPropagation(),this.classList.toggle("zoomed"),window.removeEventListener("mousedown",zoomMe)}function dates(){var e=document.getElementById("myExp"),o=2013,t=10,n=new Date,d=document.getElementById("copyDate");d.innerHTML=(new Date).getFullYear(),n.getMonth()+1===t&&(e.innerHTML=n.getFullYear()-o)}window.addEventListener("load",function(){document.body.className="loaded",setTimeout(function(){document.body.style.overflow="visible"},2500),dates()});var el=document.getElementById("intro-me");el.addEventListener("mousedown",zoomMe),document.body.addEventListener("mousedown",function(){el.classList.remove("zoomed")});
+//onLoad
+window.addEventListener('load',function(){
+	document.body.className = "loaded";
+	document.body.style.overflow = "visible";
+	setTimeout(function(){
+		document.querySelector('.splash').style.display = "none";
+	}, 500)
+	dates();
+})
+
+
+//intro-me
+var el = document.getElementById('intro-me');
+function zoomMe(e){
+	e.stopPropagation();
+	this.classList.toggle('zoomed');
+	window.removeEventListener('mousedown',zoomMe)
+}
+
+el.addEventListener('mousedown',zoomMe);
+document.body.addEventListener('mousedown', function(){
+	el.classList.remove('zoomed');
+});
+
+
+//Dates and Years
+function dates(){
+	
+	var myExp = document.getElementById('myExp');
+	var exp = 2013;
+	var expMonth = 10;
+	var now = new Date();
+	var copyDate = document.getElementById('copyDate');
+
+	copyDate.innerHTML = new Date().getFullYear();
+
+	if(now.getMonth() + 1 === expMonth){
+		myExp.innerHTML = now.getFullYear() - exp
+	}
+}

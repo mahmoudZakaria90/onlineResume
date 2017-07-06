@@ -1,5 +1,41 @@
 /*Custom styles*/
 
+//splash
+.splash
+	background-color: black
+	position: fixed
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	z-index: 200
+	+gvTransition_val(transform 450ms)
+
+.loaded
+	.splash
+		-webkit-transform: translateY(-100%)
+		transform: translateY(-100%)
+
+.snippet
+	position: relative
+	margin: auto
+	font-size: 10px
+
+.spinner8
+	width: 0
+	height: 0
+	border: 2.5em solid transparent
+	border-right-color: #e3ac51
+	border-left-color: #ea4949
+	border-bottom-color: transparent
+	border-radius: 10px
+	top: 0
+	left: 0
+	-webkit-transform: scaleY(0)
+	transform: scaleY(0)
+	box-shadow: 0 0 1px rgba(0,0,0,0)
+	animation: scaleY 65ms infinite alternate,move 5s infinite
+
 /*Slider*/
 // +slider-full-v()
 +slider-semi-h()
@@ -89,9 +125,10 @@ li
 		display: inline-block
 		transition: background-color 450ms, color 450ms
 		position: relative
-		&:hover
-			background-color: #378bbd
-			color: white
+		@media(min-width: 1025px)
+			&:hover
+				background-color: #378bbd
+				color: white
 		&:active
 			top: 2px
 			box-shadow: none
@@ -256,7 +293,7 @@ li
 			position: relative
 			display: block
 			+gvTransition_val(all 450ms)
-			background-size: 150%
+			background-size: 162%
 			background-repeat: no-repeat
 			background-position: center center
 			box-shadow: 0 0 1px rgba(0,0,0,0)
@@ -312,38 +349,3 @@ li
 		margin-bottom: 7rem
 
 
-//splash
-.splash
-	background-color: black
-	position: fixed
-	top: 0
-	left: 0
-	right: 0
-	bottom: 0
-	z-index: 200
-	+gvTransition_val(transform 450ms 2s)
-
-.loaded
-	.splash
-		-webkit-transform: translateY(-100%)
-		transform: translateY(-100%)
-
-.snippet
-	position: relative
-	margin: auto
-	font-size: 10px
-
-.spinner8
-	width: 0
-	height: 0
-	border: 2.5em solid transparent
-	border-right-color: #e3ac51
-	border-left-color: #ea4949
-	border-bottom-color: transparent
-	border-radius: 10px
-	top: 0
-	left: 0
-	-webkit-transform: scaleY(0)
-	transform: scaleY(0)
-	box-shadow: 0 0 1px rgba(0,0,0,0)
-	animation: scaleY 65ms infinite alternate,move 5s infinite
