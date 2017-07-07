@@ -38,3 +38,35 @@ function dates(){
 		myExp.innerHTML = now.getFullYear() - exp
 	}
 }
+
+
+//Go back
+
+let goUpBtn = document.querySelector('.go-up');
+
+function goUp() {
+
+	if(window.scrollY == 0){
+		return;
+	}
+	window.scrollBy(0, -100)
+	requestAnimationFrame(goUp)
+}
+
+goUpBtn.addEventListener('click', goUp);
+
+function showGoUp() {
+	let intro = document.querySelector('.intro');
+	let introOffset = intro.offsetHeight;
+	if(window.scrollY >= introOffset) {
+		goUpBtn.classList.add('is-show');
+	} else {
+		goUpBtn.classList.remove('is-show');
+	}
+
+	goUpBtn.addEventListener('transitionend', function(){
+		this.classList.add('is-animate')
+	})
+}
+
+window.addEventListener('scroll', showGoUp)

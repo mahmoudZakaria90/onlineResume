@@ -3,7 +3,7 @@
 //splash
 .splash
 	background-color: black
-	position: fixed
+	position: absolute
 	top: 0
 	left: 0
 	right: 0
@@ -350,3 +350,19 @@ li
 		margin-bottom: 7rem
 
 
+
+.go-up
+	cursor: pointer
+	font-size: 3.5rem
+	padding: 20px
+	color: white
+	position: fixed
+	bottom: -10%
+	right: 0
+	opacity: 0
+	+gvTransition_val(all 1s, opacity 800ms)
+	&.is-show
+		bottom: 2.5rem
+		opacity: 1
+	&.is-animate
+		animation: toggle 500ms infinite alternate
